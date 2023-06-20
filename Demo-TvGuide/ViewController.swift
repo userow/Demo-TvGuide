@@ -7,11 +7,32 @@
 
 import UIKit
 
+import DemoTvGuideSwaggerApi
+
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+
+//		DemoTvGuideSwaggerApi.
+		ChannelsAPI.getAllChannels { data, error in
+			print(data)
+
+            ProgramItemsAPI.getProgramItems { data, error in
+                guard let data else { return }
+
+                let channelProgramSorted = data
+                    .filter { $0.recentAirTime.channelID == 302731
+                    }
+                    .sorted { $0.startTime < $1.startTime }
+
+                print("\n\nPROGRAMS:\n")
+                channelProgramSorted.forEach {
+                    print("\($0.startTime)\t\($0.length)\t\($0.name)")
+                }
+            }
+		}
 	}
 
 

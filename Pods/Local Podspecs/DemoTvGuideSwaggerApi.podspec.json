@@ -1,0 +1,24 @@
+{
+  "name": "DemoTvGuideSwaggerApi",
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.11",
+    "tvos": "9.0",
+    "watchos": "3.0"
+  },
+  "version": "0.0.3",
+  "source": {
+    "git": "git@github.com:OpenAPITools/openapi-generator.git",
+    "tag": "v0.0.3"
+  },
+  "authors": "OpenAPI Generator",
+  "license": "Proprietary",
+  "homepage": "https://github.com/OpenAPITools/openapi-generator",
+  "summary": "DemoTvGuideSwaggerApi Swift SDK",
+  "source_files": "DemoTvGuideSwaggerApi/Classes/**/*.swift",
+  "dependencies": {
+    "AnyCodable-FlightSchool": [
+      "~> 0.6"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - AnyCodable-FlightSchool (0.6.7)
+  - DemoTvGuideSwaggerApi (0.0.3):
+    - AnyCodable-FlightSchool (~> 0.6)
+  - Viperit (1.5.0)
+
+DEPENDENCIES:
+  - DemoTvGuideSwaggerApi (from `DemoTvGuideSwaggerApi`)
+  - Viperit
+
+SPEC REPOS:
+  trunk:
+    - AnyCodable-FlightSchool
+    - Viperit
+
+EXTERNAL SOURCES:
+  DemoTvGuideSwaggerApi:
+    :path: DemoTvGuideSwaggerApi
+
+SPEC CHECKSUMS:
+  AnyCodable-FlightSchool: 261cbe76757802b17d471b9059b21e6fa5edf57b
+  DemoTvGuideSwaggerApi: 35d98f2c42c65590ce6b3f6762d28c6713051f16
+  Viperit: 0eb802210bf0aff1e662c0fb545d268983501867
+
+PODFILE CHECKSUM: 0a20ae02e02db7e6ba6572644d3400f7375dbd0d
+
+COCOAPODS: 1.11.3

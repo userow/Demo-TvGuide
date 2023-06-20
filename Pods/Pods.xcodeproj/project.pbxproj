@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B47E943DEB30EC401433CE60A4FEBD /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7F73DFDF5E48BD2208A079A80D82 /* String+.swift */; };
+		0246D0E0A0AF0C3C67BCEE1F83ABBF5B /* RecentAirTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A01B817AF21B86CD5F48DA3C912D /* RecentAirTime.swift */; };
+		0B6B50D0C630048F730021A8D158292C /* ViperComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C603951C2E513D5A411425B027BA6D6C /* ViperComponent.swift */; };
+		0C047303DD151B5F296E436C6F8C812E /* ViperitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B381534AF77062EC1C8BF5DE4A92F8 /* ViperitError.swift */; };
+		1533E71493FE664EDDB83617A9B2B557 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C9472A80455E781BB29CBC05EFCE7 /* Router.swift */; };
+		188392F30EC070701338EC0FB27E3067 /* DisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98826F0B9021C7E37ABBDA136812A27 /* DisplayData.swift */; };
+		24086E2CA0E52A8829C0BA68DACF5D0F /* UserInterface+Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6937481CDF235482BB859E59688C3 /* UserInterface+Split.swift */; };
+		3DFF64FE7189CC8AA932FE8038205DC7 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35909213266B31C9149FBF4F2D5B6A37 /* AnyCodable.swift */; };
+		403476E92C8CE2A55F658A0E62E8731E /* AnyCodable-FlightSchool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D37C8B39F611A3EAEF88BDF6A6532B1 /* AnyCodable-FlightSchool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DD9F6C6E841430EA25F2038FD1B2CB /* Viperit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD36C06EAF1E78496585F231A2A4DBF /* Viperit-dummy.m */; };
+		52ED04CC58F111314FCB4A101C195A9F /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705EE5CBD1DF4FD80CB709C05D73B6AF /* Interactor.swift */; };
+		5FC00A63CE911B1C8ECC4F6FAEDA6C65 /* UserInterface+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3B9BC9D451F6D77F657856DD5E587 /* UserInterface+Table.swift */; };
+		6ADC53C17A0E0AE365A5D508030B3E37 /* ProgramItemsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71F74E17DD4C443EC9090CFEE27D68 /* ProgramItemsAPI.swift */; };
+		758DE0978598A1449941FCC7CE6239AF /* URLSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAEDFEC80E05A77FDB44401A172615 /* URLSessionImplementations.swift */; };
+		9166776ABB3664D59F0C615C0B607E7B /* Pods-Demo-TvGuide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BD12056C240DB29ECD97FD82E7BA0D /* Pods-Demo-TvGuide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932A6859B6DA923219E2D801AA12B0C1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D68F21311F33CC4B10672C5EA74 /* Validation.swift */; };
+		992417904341D168D0FB1561C1822593 /* UserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344193E81FD93E3B79072221A11C02 /* UserInterface.swift */; };
+		9D4CEF2C493FE641861F3278A411623C /* JSONDataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03CF5E34B421E6E5A8C90C3B2A4012 /* JSONDataEncoding.swift */; };
+		9EBDD3ABC7414358FDE3DAAFC9A98C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A26A15E44D8E1C1CACCBFAC690FD366B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10E2A28AD19D256C4A8E1359E7235E /* Presenter.swift */; };
+		A4584DE1B0D52BFA6A9E9BC381A091CA /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F8647552F16CBF0CC63E68B4F286BF /* Channel.swift */; };
+		A79F75A699B4687080129ABDB849724E /* ProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543CAF2048335C93D3DE353790FD0B2 /* ProgramItem.swift */; };
+		AC107D591D9485A41E91EF02778ECBAF /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251C55AE7E5FA06B20BB980D267268A /* AnyDecodable.swift */; };
+		B3E3CD91B8C669275BD59DF02F341FB8 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78F9710331F5F1EBD77B98C651DF56 /* SynchronizedDictionary.swift */; };
+		B77C7A109F2EE97296A20BE9493D56EF /* Viperit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4F605283E57E80B83A1382C4FF6C50 /* Viperit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B810CBA349647515562CD57620A5A94B /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C2B9B1FDE0222B733043BFE079A92 /* APIs.swift */; };
+		C3A07AB773EA5705B0E26AEC81AF028B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6C01E4BB84C332D5DDA27C5492B7B12 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FC78F271AC99478B54036CBFBF460 /* JSONEncodingHelper.swift */; };
+		CCF904767A15C18C9BDBD269AC58DCDD /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D3D837B0323B2B389E4497623DC62D /* CodableHelper.swift */; };
+		D013E96277B405FD561F8FB354845EEF /* AnyCodable-FlightSchool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05944A894A2B804B078147BB751537A8 /* AnyCodable-FlightSchool-dummy.m */; };
+		D16A5C9CAB9C6790FF68CCA6C6FC5289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D32BC15BA9B3B23148166B7C37CA409A /* ViperitModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA30FCDFFDDB288AAA5D4858752BFF /* ViperitModule.swift */; };
+		D5B18F7CAC633F0D75150215448C01C2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51515C336EDE3101561309E167F3D4BD /* Models.swift */; };
+		DF0966DFCA73D9F66933AFD46608C034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF15AD6FF894E756A6E1958436672C90 /* OpenISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8F685F72FB89E6AD87278FCE29BB68 /* OpenISO8601DateFormatter.swift */; };
+		E08ECC635221ACF5FBB29D709CA52518 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB02BE00820DECC51E57FC812B3920 /* Module.swift */; };
+		E22B01920FA5BA7341A3FCAF4F5CAD6C /* Pods-Demo-TvGuide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8148A13FD638CF79FC893B85AAD01 /* Pods-Demo-TvGuide-dummy.m */; };
+		E569AF9C7C4A86847594FF0C854B2383 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F701FF62EFBFEE07AA6D981C3D0F47 /* APIHelper.swift */; };
+		E5E74399DB7B1EA4703062B4F6C1EDAA /* UserInterface+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BF0E314ADADDB23CEAB59B0B57AF2 /* UserInterface+SwiftUI.swift */; };
+		EAB90AA3A178499483CB35E77131A36D /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51450F92D76EEAC9AE65B369EBBA2E1 /* AnyEncodable.swift */; };
+		F14871BEAF37E968960EDBA23BB4FFB9 /* DemoTvGuideSwaggerApi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FDDF48485331FFF95A1A44658DD94 /* DemoTvGuideSwaggerApi-dummy.m */; };
+		FAD99D44C2AF7FB3DD1BFA2BDFC328F4 /* UserInterface+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0233EF7F6D2D7297CD60C0043A187C9D /* UserInterface+Collection.swift */; };
+		FC74A6ABDB11FA14B4CD33B9BD37AABD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4D326416D5D5AEA0A132F45999858 /* Extensions.swift */; };
+		FC9EB6AA95525ACF6EA7D9661518673B /* DemoTvGuideSwaggerApi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8727AAC80F27E8DC5C21E52FD578F1EE /* DemoTvGuideSwaggerApi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD4A3514331939E95956F7E2AFD1E7E7 /* ChannelsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6181E7DF781C1CA385A4194554E7 /* ChannelsAPI.swift */; };
+		FDD65E03B0DA1C71A7255D8FB7D6F1C2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876D470B4AA1A19D8ADA7635AB31B32E /* Configuration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E65A4D492007E5AFFA19D175B4D4DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1349DEE8C0A3A2839E9C9A03465ED9;
+			remoteInfo = "AnyCodable-FlightSchool";
+		};
+		80B8640B03081616ACAD45F9912D00B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1349DEE8C0A3A2839E9C9A03465ED9;
+			remoteInfo = "AnyCodable-FlightSchool";
+		};
+		913EB9C7264768908C1BED1AF07F9EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD5D77A142DAB702C4FE4A50183E9E8;
+			remoteInfo = Viperit;
+		};
+		B21294A88B938F3C4AE0FA9D6E389D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9114F8582087E52B5D3A2890F0ED06A;
+			remoteInfo = DemoTvGuideSwaggerApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0233EF7F6D2D7297CD60C0043A187C9D /* UserInterface+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserInterface+Collection.swift"; path = "Viperit/Extensions/UserInterface+Collection.swift"; sourceTree = "<group>"; };
+		0543CAF2048335C93D3DE353790FD0B2 /* ProgramItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgramItem.swift; sourceTree = "<group>"; };
+		05944A894A2B804B078147BB751537A8 /* AnyCodable-FlightSchool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyCodable-FlightSchool-dummy.m"; sourceTree = "<group>"; };
+		08D3D837B0323B2B389E4497623DC62D /* CodableHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableHelper.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/CodableHelper.swift; sourceTree = "<group>"; };
+		0B03CF5E34B421E6E5A8C90C3B2A4012 /* JSONDataEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDataEncoding.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/JSONDataEncoding.swift; sourceTree = "<group>"; };
+		12F8647552F16CBF0CC63E68B4F286BF /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		13F3E1DF01909BE37E95D6885D939C45 /* AnyCodable-FlightSchool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyCodable-FlightSchool-Info.plist"; sourceTree = "<group>"; };
+		15A39876FB194C005E5AB354BE93E318 /* ChannelsAPI.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ChannelsAPI.md; path = docs/ChannelsAPI.md; sourceTree = "<group>"; };
+		196EEED97C9F5A2352CF4AED164EBA76 /* DemoTvGuideSwaggerApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTvGuideSwaggerApi.release.xcconfig; sourceTree = "<group>"; };
+		1F8F685F72FB89E6AD87278FCE29BB68 /* OpenISO8601DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenISO8601DateFormatter.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/OpenISO8601DateFormatter.swift; sourceTree = "<group>"; };
+		201BF0E314ADADDB23CEAB59B0B57AF2 /* UserInterface+SwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserInterface+SwiftUI.swift"; path = "Viperit/Extensions/UserInterface+SwiftUI.swift"; sourceTree = "<group>"; };
+		21C77DABBC49D72C4DBA18C938156F8C /* Viperit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Viperit-prefix.pch"; sourceTree = "<group>"; };
+		23F701FF62EFBFEE07AA6D981C3D0F47 /* APIHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/APIHelper.swift; sourceTree = "<group>"; };
+		261F70C1770A80D26AB987D7B4D4B097 /* Viperit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Viperit; path = Viperit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9DAFEFC722200F5F3FD64FB24794C /* Pods-Demo-TvGuide-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-TvGuide-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E3C9472A80455E781BB29CBC05EFCE7 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Viperit/Core/Router.swift; sourceTree = "<group>"; };
+		31AC974560EB58F8CD2638D73C3A8982 /* DemoTvGuideSwaggerApi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DemoTvGuideSwaggerApi; path = DemoTvGuideSwaggerApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A6937481CDF235482BB859E59688C3 /* UserInterface+Split.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserInterface+Split.swift"; path = "Viperit/Extensions/UserInterface+Split.swift"; sourceTree = "<group>"; };
+		35909213266B31C9149FBF4F2D5B6A37 /* AnyCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyCodable.swift; path = Sources/AnyCodable/AnyCodable.swift; sourceTree = "<group>"; };
+		4200C0CE916BD8D8F9403CBEF0DCE5C3 /* DemoTvGuideSwaggerApi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTvGuideSwaggerApi-prefix.pch"; sourceTree = "<group>"; };
+		4A34C93D78509AC5FBEE6A4C06097BD7 /* Pods-Demo-TvGuide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo-TvGuide.modulemap"; sourceTree = "<group>"; };
+		4BAC19F2A5087DE085BA615CD8FDAB99 /* ProgramItemsAPI.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ProgramItemsAPI.md; path = docs/ProgramItemsAPI.md; sourceTree = "<group>"; };
+		4D37C8B39F611A3EAEF88BDF6A6532B1 /* AnyCodable-FlightSchool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyCodable-FlightSchool-umbrella.h"; sourceTree = "<group>"; };
+		51515C336EDE3101561309E167F3D4BD /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/Models.swift; sourceTree = "<group>"; };
+		5ACB02BE00820DECC51E57FC812B3920 /* Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Module.swift; path = Viperit/Core/Module.swift; sourceTree = "<group>"; };
+		5DA41CBC771B4CE7E9605FBBFF16864E /* DemoTvGuideSwaggerApi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemoTvGuideSwaggerApi-Info.plist"; sourceTree = "<group>"; };
+		5DD8148A13FD638CF79FC893B85AAD01 /* Pods-Demo-TvGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-TvGuide-dummy.m"; sourceTree = "<group>"; };
+		623F02FDAF15FD088AF5234046C9CC4B /* Pods-Demo-TvGuide-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-TvGuide-acknowledgements.plist"; sourceTree = "<group>"; };
+		660D6181E7DF781C1CA385A4194554E7 /* ChannelsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelsAPI.swift; sourceTree = "<group>"; };
+		6BE06D1E365DA1C1F7F345B386E068A1 /* AnyCodable-FlightSchool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "AnyCodable-FlightSchool"; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCC7EA79AD2D39D1BB9F426A5B2BCE3 /* AnyCodable-FlightSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AnyCodable-FlightSchool.debug.xcconfig"; sourceTree = "<group>"; };
+		705EE5CBD1DF4FD80CB709C05D73B6AF /* Interactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = Viperit/Core/Interactor.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79AB4708A1677235E8901F335E5C79E7 /* Channel.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Channel.md; path = docs/Channel.md; sourceTree = "<group>"; };
+		7D3C2B9B1FDE0222B733043BFE079A92 /* APIs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIs.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/APIs.swift; sourceTree = "<group>"; };
+		7D913AAAE1F908C905343A52B4198A64 /* Viperit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Viperit.modulemap; sourceTree = "<group>"; };
+		7DF756813F93B11B14FDEF0BCDDB4D9A /* Pods-Demo-TvGuide */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demo-TvGuide"; path = Pods_Demo_TvGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD36C06EAF1E78496585F231A2A4DBF /* Viperit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Viperit-dummy.m"; sourceTree = "<group>"; };
+		82BD12056C240DB29ECD97FD82E7BA0D /* Pods-Demo-TvGuide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-TvGuide-umbrella.h"; sourceTree = "<group>"; };
+		8727AAC80F27E8DC5C21E52FD578F1EE /* DemoTvGuideSwaggerApi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTvGuideSwaggerApi-umbrella.h"; sourceTree = "<group>"; };
+		876D470B4AA1A19D8ADA7635AB31B32E /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/Configuration.swift; sourceTree = "<group>"; };
+		89C051D6A27DD5ABF589CB9BCB128F04 /* DemoTvGuideSwaggerApi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DemoTvGuideSwaggerApi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89EAEDFEC80E05A77FDB44401A172615 /* URLSessionImplementations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionImplementations.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/URLSessionImplementations.swift; sourceTree = "<group>"; };
+		8C71F74E17DD4C443EC9090CFEE27D68 /* ProgramItemsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgramItemsAPI.swift; sourceTree = "<group>"; };
+		91344193E81FD93E3B79072221A11C02 /* UserInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInterface.swift; path = Viperit/Core/UserInterface.swift; sourceTree = "<group>"; };
+		948FC78F271AC99478B54036CBFBF460 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingHelper.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		9B6FCF4A1A9113E848927786E378E40D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE645C8E38350449549D6E845DE6310 /* Pods-Demo-TvGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo-TvGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		A251C55AE7E5FA06B20BB980D267268A /* AnyDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyDecodable.swift; path = Sources/AnyCodable/AnyDecodable.swift; sourceTree = "<group>"; };
+		A337A01B817AF21B86CD5F48DA3C912D /* RecentAirTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecentAirTime.swift; sourceTree = "<group>"; };
+		AC4FDDF48485331FFF95A1A44658DD94 /* DemoTvGuideSwaggerApi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemoTvGuideSwaggerApi-dummy.m"; sourceTree = "<group>"; };
+		B16E373939B0CE84B79B99C8A016199A /* Viperit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Viperit-Info.plist"; sourceTree = "<group>"; };
+		B51450F92D76EEAC9AE65B369EBBA2E1 /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/AnyCodable/AnyEncodable.swift; sourceTree = "<group>"; };
+		B5B381534AF77062EC1C8BF5DE4A92F8 /* ViperitError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViperitError.swift; path = Viperit/Core/ViperitError.swift; sourceTree = "<group>"; };
+		B90E64BDEEB8677BC291E02A9E2AF2DC /* Pods-Demo-TvGuide-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-TvGuide-frameworks.sh"; sourceTree = "<group>"; };
+		BEE83921E2B08869847DB7E95CEC3E26 /* Pods-Demo-TvGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo-TvGuide.release.xcconfig"; sourceTree = "<group>"; };
+		C004334F17BF8B33202E8F7E25045347 /* DemoTvGuideSwaggerApi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemoTvGuideSwaggerApi.modulemap; sourceTree = "<group>"; };
+		C0EA30FCDFFDDB288AAA5D4858752BFF /* ViperitModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViperitModule.swift; path = Viperit/Core/ViperitModule.swift; sourceTree = "<group>"; };
+		C1BF7F73DFDF5E48BD2208A079A80D82 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "Viperit/Extensions/String+.swift"; sourceTree = "<group>"; };
+		C2B92EE2B223EE56523837F04FD1AD87 /* RecentAirTime.md */ = {isa = PBXFileReference; includeInIndex = 1; name = RecentAirTime.md; path = docs/RecentAirTime.md; sourceTree = "<group>"; };
+		C603951C2E513D5A411425B027BA6D6C /* ViperComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViperComponent.swift; path = Viperit/Core/ViperComponent.swift; sourceTree = "<group>"; };
+		CE10E2A28AD19D256C4A8E1359E7235E /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = Viperit/Core/Presenter.swift; sourceTree = "<group>"; };
+		D1C3B9BC9D451F6D77F657856DD5E587 /* UserInterface+Table.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserInterface+Table.swift"; path = "Viperit/Extensions/UserInterface+Table.swift"; sourceTree = "<group>"; };
+		DC644523EE6CEA53EBA66C12666BE558 /* ProgramItem.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ProgramItem.md; path = docs/ProgramItem.md; sourceTree = "<group>"; };
+		DD4205547D26D27FE32CBEF7CB54516A /* Pods-Demo-TvGuide-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-TvGuide-Info.plist"; sourceTree = "<group>"; };
+		DFBCEA9D53BA1A35C2824D573F54D6A2 /* AnyCodable-FlightSchool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyCodable-FlightSchool-prefix.pch"; sourceTree = "<group>"; };
+		E5225A699ACFFF41C50DDF88A2290E8A /* Viperit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Viperit.release.xcconfig; sourceTree = "<group>"; };
+		E6E4D326416D5D5AEA0A132F45999858 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/Extensions.swift; sourceTree = "<group>"; };
+		E924950D05EBC175EA7432D9F07F661B /* DemoTvGuideSwaggerApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTvGuideSwaggerApi.debug.xcconfig; sourceTree = "<group>"; };
+		E98826F0B9021C7E37ABBDA136812A27 /* DisplayData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplayData.swift; path = Viperit/Core/DisplayData.swift; sourceTree = "<group>"; };
+		F4D82D1C0D5D53D05016DAC8EBCA4AB5 /* AnyCodable-FlightSchool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AnyCodable-FlightSchool.release.xcconfig"; sourceTree = "<group>"; };
+		FCAABF2F3387F39C73333669EAB5A832 /* AnyCodable-FlightSchool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "AnyCodable-FlightSchool.modulemap"; sourceTree = "<group>"; };
+		FD4F605283E57E80B83A1382C4FF6C50 /* Viperit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Viperit-umbrella.h"; sourceTree = "<group>"; };
+		FDE25D68F21311F33CC4B10672C5EA74 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/Validation.swift; sourceTree = "<group>"; };
+		FE78F9710331F5F1EBD77B98C651DF56 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/SynchronizedDictionary.swift; sourceTree = "<group>"; };
+		FF2E1D03962E3B32684A185F4B182046 /* Viperit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Viperit.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C55921802B68A29EB678A5CC562AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16A5C9CAB9C6790FF68CCA6C6FC5289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7A6D0A124A6B07670F96FC5C382BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBDD3ABC7414358FDE3DAAFC9A98C0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D27F21728BA08EAB34494485F702CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A07AB773EA5705B0E26AEC81AF028B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB46DB26091DDBEC5DDED05C6FEFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0966DFCA73D9F66933AFD46608C034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA253A9EA2C127A0F073BCFD769264C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCAABF2F3387F39C73333669EAB5A832 /* AnyCodable-FlightSchool.modulemap */,
+				05944A894A2B804B078147BB751537A8 /* AnyCodable-FlightSchool-dummy.m */,
+				13F3E1DF01909BE37E95D6885D939C45 /* AnyCodable-FlightSchool-Info.plist */,
+				DFBCEA9D53BA1A35C2824D573F54D6A2 /* AnyCodable-FlightSchool-prefix.pch */,
+				4D37C8B39F611A3EAEF88BDF6A6532B1 /* AnyCodable-FlightSchool-umbrella.h */,
+				6DCC7EA79AD2D39D1BB9F426A5B2BCE3 /* AnyCodable-FlightSchool.debug.xcconfig */,
+				F4D82D1C0D5D53D05016DAC8EBCA4AB5 /* AnyCodable-FlightSchool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnyCodable-FlightSchool";
+			sourceTree = "<group>";
+		};
+		1D2985F2C020342437D6D2F4DDEBC082 /* Pods-Demo-TvGuide */ = {
+			isa = PBXGroup;
+			children = (
+				4A34C93D78509AC5FBEE6A4C06097BD7 /* Pods-Demo-TvGuide.modulemap */,
+				28C9DAFEFC722200F5F3FD64FB24794C /* Pods-Demo-TvGuide-acknowledgements.markdown */,
+				623F02FDAF15FD088AF5234046C9CC4B /* Pods-Demo-TvGuide-acknowledgements.plist */,
+				5DD8148A13FD638CF79FC893B85AAD01 /* Pods-Demo-TvGuide-dummy.m */,
+				B90E64BDEEB8677BC291E02A9E2AF2DC /* Pods-Demo-TvGuide-frameworks.sh */,
+				DD4205547D26D27FE32CBEF7CB54516A /* Pods-Demo-TvGuide-Info.plist */,
+				82BD12056C240DB29ECD97FD82E7BA0D /* Pods-Demo-TvGuide-umbrella.h */,
+				9FE645C8E38350449549D6E845DE6310 /* Pods-Demo-TvGuide.debug.xcconfig */,
+				BEE83921E2B08869847DB7E95CEC3E26 /* Pods-Demo-TvGuide.release.xcconfig */,
+			);
+			name = "Pods-Demo-TvGuide";
+			path = "Target Support Files/Pods-Demo-TvGuide";
+			sourceTree = "<group>";
+		};
+		2EB55126793FC5A729F6DD45567CBD7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE06D1E365DA1C1F7F345B386E068A1 /* AnyCodable-FlightSchool */,
+				31AC974560EB58F8CD2638D73C3A8982 /* DemoTvGuideSwaggerApi */,
+				7DF756813F93B11B14FDEF0BCDDB4D9A /* Pods-Demo-TvGuide */,
+				261F70C1770A80D26AB987D7B4D4B097 /* Viperit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E6CDD17FD0080B36BDB06CFA1ECC52 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D2985F2C020342437D6D2F4DDEBC082 /* Pods-Demo-TvGuide */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52FD53BA816DE7E8F8EEB75638FF98D3 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				660D6181E7DF781C1CA385A4194554E7 /* ChannelsAPI.swift */,
+				8C71F74E17DD4C443EC9090CFEE27D68 /* ProgramItemsAPI.swift */,
+			);
+			name = APIs;
+			path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/APIs;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		85E21B028B33DD0E4F6935E121E0D53B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B377EA81CBA9F8C978EFBEA33CC1410 /* AnyCodable-FlightSchool */,
+				90C83268A7A1201520320BE1503F61AB /* Viperit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B25CEDCF681B3859C3DB46479C87327 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C004334F17BF8B33202E8F7E25045347 /* DemoTvGuideSwaggerApi.modulemap */,
+				AC4FDDF48485331FFF95A1A44658DD94 /* DemoTvGuideSwaggerApi-dummy.m */,
+				5DA41CBC771B4CE7E9605FBBFF16864E /* DemoTvGuideSwaggerApi-Info.plist */,
+				4200C0CE916BD8D8F9403CBEF0DCE5C3 /* DemoTvGuideSwaggerApi-prefix.pch */,
+				8727AAC80F27E8DC5C21E52FD578F1EE /* DemoTvGuideSwaggerApi-umbrella.h */,
+				E924950D05EBC175EA7432D9F07F661B /* DemoTvGuideSwaggerApi.debug.xcconfig */,
+				196EEED97C9F5A2352CF4AED164EBA76 /* DemoTvGuideSwaggerApi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/DemoTvGuideSwaggerApi";
+			sourceTree = "<group>";
+		};
+		90C83268A7A1201520320BE1503F61AB /* Viperit */ = {
+			isa = PBXGroup;
+			children = (
+				E98826F0B9021C7E37ABBDA136812A27 /* DisplayData.swift */,
+				705EE5CBD1DF4FD80CB709C05D73B6AF /* Interactor.swift */,
+				5ACB02BE00820DECC51E57FC812B3920 /* Module.swift */,
+				CE10E2A28AD19D256C4A8E1359E7235E /* Presenter.swift */,
+				2E3C9472A80455E781BB29CBC05EFCE7 /* Router.swift */,
+				C1BF7F73DFDF5E48BD2208A079A80D82 /* String+.swift */,
+				91344193E81FD93E3B79072221A11C02 /* UserInterface.swift */,
+				0233EF7F6D2D7297CD60C0043A187C9D /* UserInterface+Collection.swift */,
+				34A6937481CDF235482BB859E59688C3 /* UserInterface+Split.swift */,
+				201BF0E314ADADDB23CEAB59B0B57AF2 /* UserInterface+SwiftUI.swift */,
+				D1C3B9BC9D451F6D77F657856DD5E587 /* UserInterface+Table.swift */,
+				C603951C2E513D5A411425B027BA6D6C /* ViperComponent.swift */,
+				B5B381534AF77062EC1C8BF5DE4A92F8 /* ViperitError.swift */,
+				C0EA30FCDFFDDB288AAA5D4858752BFF /* ViperitModule.swift */,
+				D08EFD3C8E451569DA26F13C73FA1CE3 /* Support Files */,
+			);
+			name = Viperit;
+			path = Viperit;
+			sourceTree = "<group>";
+		};
+		9B377EA81CBA9F8C978EFBEA33CC1410 /* AnyCodable-FlightSchool */ = {
+			isa = PBXGroup;
+			children = (
+				35909213266B31C9149FBF4F2D5B6A37 /* AnyCodable.swift */,
+				A251C55AE7E5FA06B20BB980D267268A /* AnyDecodable.swift */,
+				B51450F92D76EEAC9AE65B369EBBA2E1 /* AnyEncodable.swift */,
+				0AA253A9EA2C127A0F073BCFD769264C /* Support Files */,
+			);
+			name = "AnyCodable-FlightSchool";
+			path = "AnyCodable-FlightSchool";
+			sourceTree = "<group>";
+		};
+		CAEEFD7DFE516D3AD972C5BAD51C2345 /* DemoTvGuideSwaggerApi */ = {
+			isa = PBXGroup;
+			children = (
+				23F701FF62EFBFEE07AA6D981C3D0F47 /* APIHelper.swift */,
+				7D3C2B9B1FDE0222B733043BFE079A92 /* APIs.swift */,
+				08D3D837B0323B2B389E4497623DC62D /* CodableHelper.swift */,
+				876D470B4AA1A19D8ADA7635AB31B32E /* Configuration.swift */,
+				E6E4D326416D5D5AEA0A132F45999858 /* Extensions.swift */,
+				0B03CF5E34B421E6E5A8C90C3B2A4012 /* JSONDataEncoding.swift */,
+				948FC78F271AC99478B54036CBFBF460 /* JSONEncodingHelper.swift */,
+				51515C336EDE3101561309E167F3D4BD /* Models.swift */,
+				1F8F685F72FB89E6AD87278FCE29BB68 /* OpenISO8601DateFormatter.swift */,
+				FE78F9710331F5F1EBD77B98C651DF56 /* SynchronizedDictionary.swift */,
+				89EAEDFEC80E05A77FDB44401A172615 /* URLSessionImplementations.swift */,
+				FDE25D68F21311F33CC4B10672C5EA74 /* Validation.swift */,
+				52FD53BA816DE7E8F8EEB75638FF98D3 /* APIs */,
+				D3096F85FE0432FF45D92552FB164F65 /* Models */,
+				F051666909CFBB11C83077B2AB8C024D /* Pod */,
+				8B25CEDCF681B3859C3DB46479C87327 /* Support Files */,
+			);
+			name = DemoTvGuideSwaggerApi;
+			path = ../DemoTvGuideSwaggerApi;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EC230D0920F0DA36FEECC357730C4250 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				85E21B028B33DD0E4F6935E121E0D53B /* Pods */,
+				2EB55126793FC5A729F6DD45567CBD7C /* Products */,
+				43E6CDD17FD0080B36BDB06CFA1ECC52 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D08EFD3C8E451569DA26F13C73FA1CE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D913AAAE1F908C905343A52B4198A64 /* Viperit.modulemap */,
+				7FD36C06EAF1E78496585F231A2A4DBF /* Viperit-dummy.m */,
+				B16E373939B0CE84B79B99C8A016199A /* Viperit-Info.plist */,
+				21C77DABBC49D72C4DBA18C938156F8C /* Viperit-prefix.pch */,
+				FD4F605283E57E80B83A1382C4FF6C50 /* Viperit-umbrella.h */,
+				FF2E1D03962E3B32684A185F4B182046 /* Viperit.debug.xcconfig */,
+				E5225A699ACFFF41C50DDF88A2290E8A /* Viperit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Viperit";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3096F85FE0432FF45D92552FB164F65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12F8647552F16CBF0CC63E68B4F286BF /* Channel.swift */,
+				0543CAF2048335C93D3DE353790FD0B2 /* ProgramItem.swift */,
+				A337A01B817AF21B86CD5F48DA3C912D /* RecentAirTime.swift */,
+			);
+			name = Models;
+			path = DemoTvGuideSwaggerApi/Classes/OpenAPIs/Models;
+			sourceTree = "<group>";
+		};
+		EC230D0920F0DA36FEECC357730C4250 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEEFD7DFE516D3AD972C5BAD51C2345 /* DemoTvGuideSwaggerApi */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F051666909CFBB11C83077B2AB8C024D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				79AB4708A1677235E8901F335E5C79E7 /* Channel.md */,
+				15A39876FB194C005E5AB354BE93E318 /* ChannelsAPI.md */,
+				89C051D6A27DD5ABF589CB9BCB128F04 /* DemoTvGuideSwaggerApi.podspec */,
+				DC644523EE6CEA53EBA66C12666BE558 /* ProgramItem.md */,
+				4BAC19F2A5087DE085BA615CD8FDAB99 /* ProgramItemsAPI.md */,
+				9B6FCF4A1A9113E848927786E378E40D /* README.md */,
+				C2B92EE2B223EE56523837F04FD1AD87 /* RecentAirTime.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62083E93EFE3F8AD55830E8CF0FB72FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9EB6AA95525ACF6EA7D9661518673B /* DemoTvGuideSwaggerApi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBE3C9D3DC8C4BB034A988DE06D17D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77C7A109F2EE97296A20BE9493D56EF /* Viperit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910681C1A4D8B0D94194E51964427C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403476E92C8CE2A55F658A0E62E8731E /* AnyCodable-FlightSchool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96595FC878F22ADD6E4BC7E6889D77E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9166776ABB3664D59F0C615C0B607E7B /* Pods-Demo-TvGuide-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AD5D77A142DAB702C4FE4A50183E9E8 /* Viperit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675EEA782BB2436FE9FD9B17F6C0477C /* Build configuration list for PBXNativeTarget "Viperit" */;
+			buildPhases = (
+				CFEBE3C9D3DC8C4BB034A988DE06D17D /* Headers */,
+				3F5EB7089929BAABB2F8B263DB844971 /* Sources */,
+				17C55921802B68A29EB678A5CC562AC3 /* Frameworks */,
+				2B76408C00BB03B3D266C1B46778B1D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viperit;
+			productName = Viperit;
+			productReference = 261F70C1770A80D26AB987D7B4D4B097 /* Viperit */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B1349DEE8C0A3A2839E9C9A03465ED9 /* AnyCodable-FlightSchool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF1AF4EEA3ED7ED566E1AEED10FC612 /* Build configuration list for PBXNativeTarget "AnyCodable-FlightSchool" */;
+			buildPhases = (
+				F910681C1A4D8B0D94194E51964427C4 /* Headers */,
+				D15A57EC866ECDFC58F3080BEA185F90 /* Sources */,
+				F7AB46DB26091DDBEC5DDED05C6FEFE9 /* Frameworks */,
+				DCF63BF0C904137C6078A2E242ACC127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnyCodable-FlightSchool";
+			productName = AnyCodable;
+			productReference = 6BE06D1E365DA1C1F7F345B386E068A1 /* AnyCodable-FlightSchool */;
+			productType = "com.apple.product-type.framework";
+		};
+		B84590B0709B2553C7119A33201105A6 /* Pods-Demo-TvGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33E116B2AEDEC1FB07EEE8BC4D530DC /* Build configuration list for PBXNativeTarget "Pods-Demo-TvGuide" */;
+			buildPhases = (
+				F96595FC878F22ADD6E4BC7E6889D77E /* Headers */,
+				D5A6BAE859ABE808CF2EFB4478DE0AD8 /* Sources */,
+				1E7A6D0A124A6B07670F96FC5C382BB7 /* Frameworks */,
+				5E90D3059F2BEFC7B80753626FF302FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8BE12C5424D3A2575C3DE85BDE295C /* PBXTargetDependency */,
+				6F9828C4113F03AB45EB36981EFBD1E2 /* PBXTargetDependency */,
+				D2B138EE8B05ADC1A6F7A19A42A7EB19 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo-TvGuide";
+			productName = Pods_Demo_TvGuide;
+			productReference = 7DF756813F93B11B14FDEF0BCDDB4D9A /* Pods-Demo-TvGuide */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9114F8582087E52B5D3A2890F0ED06A /* DemoTvGuideSwaggerApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7936F802EC27E5AC668841525F691917 /* Build configuration list for PBXNativeTarget "DemoTvGuideSwaggerApi" */;
+			buildPhases = (
+				62083E93EFE3F8AD55830E8CF0FB72FF /* Headers */,
+				C124564E77A75E66BCC693417CF5B3DC /* Sources */,
+				C1D27F21728BA08EAB34494485F702CE /* Frameworks */,
+				563DE294E2B944075B39B85C813B1C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63496CFFE4E57ACDF9213E50AD933E32 /* PBXTargetDependency */,
+			);
+			name = DemoTvGuideSwaggerApi;
+			productName = DemoTvGuideSwaggerApi;
+			productReference = 31AC974560EB58F8CD2638D73C3A8982 /* DemoTvGuideSwaggerApi */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2EB55126793FC5A729F6DD45567CBD7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1349DEE8C0A3A2839E9C9A03465ED9 /* AnyCodable-FlightSchool */,
+				F9114F8582087E52B5D3A2890F0ED06A /* DemoTvGuideSwaggerApi */,
+				B84590B0709B2553C7119A33201105A6 /* Pods-Demo-TvGuide */,
+				2AD5D77A142DAB702C4FE4A50183E9E8 /* Viperit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B76408C00BB03B3D266C1B46778B1D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563DE294E2B944075B39B85C813B1C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90D3059F2BEFC7B80753626FF302FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF63BF0C904137C6078A2E242ACC127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5EB7089929BAABB2F8B263DB844971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188392F30EC070701338EC0FB27E3067 /* DisplayData.swift in Sources */,
+				52ED04CC58F111314FCB4A101C195A9F /* Interactor.swift in Sources */,
+				E08ECC635221ACF5FBB29D709CA52518 /* Module.swift in Sources */,
+				A26A15E44D8E1C1CACCBFAC690FD366B /* Presenter.swift in Sources */,
+				1533E71493FE664EDDB83617A9B2B557 /* Router.swift in Sources */,
+				01B47E943DEB30EC401433CE60A4FEBD /* String+.swift in Sources */,
+				992417904341D168D0FB1561C1822593 /* UserInterface.swift in Sources */,
+				FAD99D44C2AF7FB3DD1BFA2BDFC328F4 /* UserInterface+Collection.swift in Sources */,
+				24086E2CA0E52A8829C0BA68DACF5D0F /* UserInterface+Split.swift in Sources */,
+				E5E74399DB7B1EA4703062B4F6C1EDAA /* UserInterface+SwiftUI.swift in Sources */,
+				5FC00A63CE911B1C8ECC4F6FAEDA6C65 /* UserInterface+Table.swift in Sources */,
+				0B6B50D0C630048F730021A8D158292C /* ViperComponent.swift in Sources */,
+				40DD9F6C6E841430EA25F2038FD1B2CB /* Viperit-dummy.m in Sources */,
+				0C047303DD151B5F296E436C6F8C812E /* ViperitError.swift in Sources */,
+				D32BC15BA9B3B23148166B7C37CA409A /* ViperitModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C124564E77A75E66BCC693417CF5B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569AF9C7C4A86847594FF0C854B2383 /* APIHelper.swift in Sources */,
+				B810CBA349647515562CD57620A5A94B /* APIs.swift in Sources */,
+				A4584DE1B0D52BFA6A9E9BC381A091CA /* Channel.swift in Sources */,
+				FD4A3514331939E95956F7E2AFD1E7E7 /* ChannelsAPI.swift in Sources */,
+				CCF904767A15C18C9BDBD269AC58DCDD /* CodableHelper.swift in Sources */,
+				FDD65E03B0DA1C71A7255D8FB7D6F1C2 /* Configuration.swift in Sources */,
+				F14871BEAF37E968960EDBA23BB4FFB9 /* DemoTvGuideSwaggerApi-dummy.m in Sources */,
+				FC74A6ABDB11FA14B4CD33B9BD37AABD /* Extensions.swift in Sources */,
+				9D4CEF2C493FE641861F3278A411623C /* JSONDataEncoding.swift in Sources */,
+				C6C01E4BB84C332D5DDA27C5492B7B12 /* JSONEncodingHelper.swift in Sources */,
+				D5B18F7CAC633F0D75150215448C01C2 /* Models.swift in Sources */,
+				DF15AD6FF894E756A6E1958436672C90 /* OpenISO8601DateFormatter.swift in Sources */,
+				A79F75A699B4687080129ABDB849724E /* ProgramItem.swift in Sources */,
+				6ADC53C17A0E0AE365A5D508030B3E37 /* ProgramItemsAPI.swift in Sources */,
+				0246D0E0A0AF0C3C67BCEE1F83ABBF5B /* RecentAirTime.swift in Sources */,
+				B3E3CD91B8C669275BD59DF02F341FB8 /* SynchronizedDictionary.swift in Sources */,
+				758DE0978598A1449941FCC7CE6239AF /* URLSessionImplementations.swift in Sources */,
+				932A6859B6DA923219E2D801AA12B0C1 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A57EC866ECDFC58F3080BEA185F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFF64FE7189CC8AA932FE8038205DC7 /* AnyCodable.swift in Sources */,
+				D013E96277B405FD561F8FB354845EEF /* AnyCodable-FlightSchool-dummy.m in Sources */,
+				AC107D591D9485A41E91EF02778ECBAF /* AnyDecodable.swift in Sources */,
+				EAB90AA3A178499483CB35E77131A36D /* AnyEncodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A6BAE859ABE808CF2EFB4478DE0AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22B01920FA5BA7341A3FCAF4F5CAD6C /* Pods-Demo-TvGuide-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63496CFFE4E57ACDF9213E50AD933E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AnyCodable-FlightSchool";
+			target = 6B1349DEE8C0A3A2839E9C9A03465ED9 /* AnyCodable-FlightSchool */;
+			targetProxy = 80B8640B03081616ACAD45F9912D00B7 /* PBXContainerItemProxy */;
+		};
+		6F9828C4113F03AB45EB36981EFBD1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DemoTvGuideSwaggerApi;
+			target = F9114F8582087E52B5D3A2890F0ED06A /* DemoTvGuideSwaggerApi */;
+			targetProxy = B21294A88B938F3C4AE0FA9D6E389D39 /* PBXContainerItemProxy */;
+		};
+		9F8BE12C5424D3A2575C3DE85BDE295C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AnyCodable-FlightSchool";
+			target = 6B1349DEE8C0A3A2839E9C9A03465ED9 /* AnyCodable-FlightSchool */;
+			targetProxy = 3E65A4D492007E5AFFA19D175B4D4DBE /* PBXContainerItemProxy */;
+		};
+		D2B138EE8B05ADC1A6F7A19A42A7EB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Viperit;
+			target = 2AD5D77A142DAB702C4FE4A50183E9E8 /* Viperit */;
+			targetProxy = 913EB9C7264768908C1BED1AF07F9EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		262998458A27809AC1CF3A25DC115941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE83921E2B08869847DB7E95CEC3E26 /* Pods-Demo-TvGuide.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo-TvGuide/Pods-Demo-TvGuide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo-TvGuide/Pods-Demo-TvGuide.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B875B9F38A2FCF405455A77475003DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2E1D03962E3B32684A185F4B182046 /* Viperit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Viperit/Viperit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Viperit/Viperit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Viperit/Viperit.modulemap";
+				PRODUCT_MODULE_NAME = Viperit;
+				PRODUCT_NAME = Viperit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4DB92B80687B6707978D5F188477C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E924950D05EBC175EA7432D9F07F661B /* DemoTvGuideSwaggerApi.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi.modulemap";
+				PRODUCT_MODULE_NAME = DemoTvGuideSwaggerApi;
+				PRODUCT_NAME = DemoTvGuideSwaggerApi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9333F83E7B58303AB1029C67963BE57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D82D1C0D5D53D05016DAC8EBCA4AB5 /* AnyCodable-FlightSchool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnyCodable-FlightSchool/AnyCodable-FlightSchool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnyCodable-FlightSchool/AnyCodable-FlightSchool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnyCodable-FlightSchool/AnyCodable-FlightSchool.modulemap";
+				PRODUCT_MODULE_NAME = AnyCodable;
+				PRODUCT_NAME = AnyCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6ED38AC216540428C0EE5B7603385E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5225A699ACFFF41C50DDF88A2290E8A /* Viperit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Viperit/Viperit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Viperit/Viperit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Viperit/Viperit.modulemap";
+				PRODUCT_MODULE_NAME = Viperit;
+				PRODUCT_NAME = Viperit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C14242CD720996F683059B13D25A356C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196EEED97C9F5A2352CF4AED164EBA76 /* DemoTvGuideSwaggerApi.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi.modulemap";
+				PRODUCT_MODULE_NAME = DemoTvGuideSwaggerApi;
+				PRODUCT_NAME = DemoTvGuideSwaggerApi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C633DC889BC33520C38EB83CB9A43A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE645C8E38350449549D6E845DE6310 /* Pods-Demo-TvGuide.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo-TvGuide/Pods-Demo-TvGuide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo-TvGuide/Pods-Demo-TvGuide.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9D24D17CE25B98896ADA9BCC55FA332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCC7EA79AD2D39D1BB9F426A5B2BCE3 /* AnyCodable-FlightSchool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnyCodable-FlightSchool/AnyCodable-FlightSchool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnyCodable-FlightSchool/AnyCodable-FlightSchool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnyCodable-FlightSchool/AnyCodable-FlightSchool.modulemap";
+				PRODUCT_MODULE_NAME = AnyCodable;
+				PRODUCT_NAME = AnyCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF1AF4EEA3ED7ED566E1AEED10FC612 /* Build configuration list for PBXNativeTarget "AnyCodable-FlightSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D24D17CE25B98896ADA9BCC55FA332 /* Debug */,
+				9333F83E7B58303AB1029C67963BE57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675EEA782BB2436FE9FD9B17F6C0477C /* Build configuration list for PBXNativeTarget "Viperit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B875B9F38A2FCF405455A77475003DC /* Debug */,
+				A6ED38AC216540428C0EE5B7603385E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7936F802EC27E5AC668841525F691917 /* Build configuration list for PBXNativeTarget "DemoTvGuideSwaggerApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB92B80687B6707978D5F188477C56C /* Debug */,
+				C14242CD720996F683059B13D25A356C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33E116B2AEDEC1FB07EEE8BC4D530DC /* Build configuration list for PBXNativeTarget "Pods-Demo-TvGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C633DC889BC33520C38EB83CB9A43A5D /* Debug */,
+				262998458A27809AC1CF3A25DC115941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
