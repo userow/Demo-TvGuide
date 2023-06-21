@@ -25,8 +25,8 @@ Usually, we expect developers to complete test assignments in 1 week.
 
 ## pre-requests for project
 
-Cocoapods
-Brew
++ Cocoapods
++ Brew
 
 ## pre-requests for codegen
 
