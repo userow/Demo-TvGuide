@@ -5,7 +5,7 @@
 The mockup API returns 30 channels and programs for two days. (actually - little bit more then 24 hours)
 The test application should display TVGuide from API as shown in mockup design below. (Do the design as simple as possible; do not add images for channels as you do not have them)
 
-// TODO: Add an image
+![Resulting app UI Sample](Demo-TVGuide-UI-sample.png)
 
 User should be able to scroll up/down and left/right through all channels and all available programs.
 
