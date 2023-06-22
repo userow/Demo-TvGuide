@@ -17,21 +17,25 @@ class ViewController: UIViewController {
 
 //		DemoTvGuideSwaggerApi.
 		ChannelsAPI.getAllChannels { data, error in
-			print(data)
+//			print(data)
 
-            ProgramItemsAPI.getProgramItems { data, error in
-                guard let data else { return }
-
-                let channelProgramSorted = data
-                    .filter { $0.recentAirTime.channelID == 302731
-                    }
-                    .sorted { $0.startTime < $1.startTime }
-
-                print("\n\nPROGRAMS:\n")
-                channelProgramSorted.forEach {
-                    print("\($0.startTime)\t\($0.length)\t\($0.name)")
-                }
+            data?.forEach {
+                print("\($0.id)\t\($0.orderNum)\t\($0.callSign)")
             }
+
+//            ProgramItemsAPI.getProgramItems { data, error in
+//                guard let data else { return }
+//
+//                let channelProgramSorted = data
+//                    .filter { $0.recentAirTime.channelID == 302731
+//                    }
+//                    .sorted { $0.startTime < $1.startTime }
+//
+//                print("\n\nPROGRAMS:\n")
+//                channelProgramSorted.forEach {
+//                    print("\($0.startTime)\t\($0.length)\t\($0.name)")
+//                }
+//            }
 		}
 	}
 
