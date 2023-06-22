@@ -21,7 +21,7 @@ Preferable to have this for tvOS.
 Usually, we expect developers to complete test assignments in 1 week.
 
 
-# Here lies some messy initial commit, but it's ok for the start
+# Project Setup
 
 ## pre-requests for project
 
@@ -36,8 +36,10 @@ OpenApi codegen requires: `brew install openapi-generator`
 
 Before executing codegen: `export SWIFT_POST_PROCESS_FILE="/usr/local/bin/swiftformat"`
 
-Executing codegen: `openapi-generator generate --enable-post-process-file -i demo-c.cdn.vmedia.openapi.yaml -g swift5 --additional-properties=projectName=DemoTvGuideSwaggerApi -o DemoTvGuideSwaggerApi`
+## codegen executing: 
+In a project's dir execute `openapi-generator generate --enable-post-process-file -i demo-c.cdn.vmedia.openapi.yaml -g swift5 --additional-properties=projectName=DemoTvGuideSwaggerApi -o DemoTvGuideSwaggerApi`
 
 ??? add this codegen call somewhere ??? doubt where to...
 
+## Project start: 
 Run `pod install`
