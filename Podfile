@@ -6,7 +6,7 @@ target 'Demo-TvGuide' do
   use_frameworks!
 
   # Pods for Demo-TvGuide
-  pod 'Viperit'
+#  pod 'Viperit'
   pod 'DemoTvGuideSwaggerApi', :path => 'DemoTvGuideSwaggerApi'
 end
 

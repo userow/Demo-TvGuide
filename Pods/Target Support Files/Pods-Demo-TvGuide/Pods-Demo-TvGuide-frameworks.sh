@@ -178,12 +178,10 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AnyCodable-FlightSchool/AnyCodable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Viperit/Viperit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AnyCodable-FlightSchool/AnyCodable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DemoTvGuideSwaggerApi/DemoTvGuideSwaggerApi.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Viperit/Viperit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
